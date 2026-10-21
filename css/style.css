@@ -124,3 +124,24 @@ img {
   display: block;
   margin-bottom: 0.75rem;
 }
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 1rem;
+}
+
+.services article {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.services h3 {
+  margin: 0 0 0.5rem;
+  color: #0b5cad;
+}
+
+.services p {
+  margin: 0;
+}
