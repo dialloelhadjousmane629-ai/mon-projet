@@ -7,6 +7,35 @@ body {
   color: #222;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   margin-bottom: 0.25rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 0;
+  color: #0b5cad;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
 }
