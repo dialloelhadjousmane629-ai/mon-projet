@@ -109,3 +109,13 @@ img {
     padding: 0.75rem 1.25rem;
   }
 }
+
+.qr {
+  margin: 1.5rem 0 0;
+  text-align: center;
+}
+
+.qr figcaption {
+  font-size: 0.9rem;
+  color: #555;
+}
